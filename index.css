@@ -1,0 +1,393 @@
+
+/* para recetear visual y no interfiera en mi css */
+*{ 
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color: rgb(221, 217, 217);
+}
+
+/*formulario registro  usuario*/
+
+* {
+    box-sizing: border-box;
+    /*me divide mis imput */
+}
+
+main.regi {
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.formulario__label {
+    display: block;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+    color: #eeeeee;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.formulario__grupo-input {
+    position: relative;
+}
+.formulario__input {
+    width: 100%;
+    background: #9eb1ec;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition: .3s ease all;
+}
+.formulario__input:focus {
+    border: 3px solid #84a2c5;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+.formulario__input-error {
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+}
+.formulario__input-error-activo {
+    display: block;
+}
+.formulario__validacion-estado {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+.formulario__checkbox {
+    margin-right: 10px;
+}
+.formulario__grupo-terminos,
+.formulario__mensaje,
+.formulario__grupo-btn-enviar {
+    grid-column: span 2;
+}
+.formulario__mensaje {
+    height: 45px;
+    line-height: 45px;
+    background: #F66060;
+    padding: 0 15px;
+    border-radius: 3px;
+    display: none;
+}
+.formulario__mensaje-activo {
+    display: block;
+}
+.formulario__mensaje p {
+    margin: 0;
+}
+.formulario__grupo-btn-enviar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.formulario__btn {
+    height: 20px;
+    line-height: 20px;
+    width: 30%;
+    background: #d0c2da;
+    color: #120c42;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .1s ease all;
+    padding-top: 15px;
+    left: 15px;
+}
+
+.formulario__mensaje-exito {
+    font-size: 14px;
+    color: #8e0f0f;
+    display: none;
+}
+.formulario__mensaje-exito-activo {
+    display: block;
+}
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-correcto .formulario__validacion-estado {
+    color: #1ed12d;
+    opacity: 1;
+}
+.formulario__grupo-incorrecto .formulario__label {
+    color: #bb2929;
+}
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+    color: #bb2929;
+    opacity: 1;
+}.formulario__grupo-incorrecto .formulario__input {
+    border: 3px solid #bb2929;
+}
+
+/*INDEX ppal*/
+
+nav {
+    height: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient(rgb(165, 137, 137), rgba(243, 238, 237, 0.596));
+}
+
+nav ul {
+    /* aqui sacamos los puntos de las listas y centramos ul*/
+    list-style-type: none;
+    text-align: center;
+    padding-top: 30px;
+}
+nav li {
+    /* aqui indicamos que una lista este detras de otra, centramos y espacios entre ellas */
+    display: inline;
+    text-align: center;
+    margin: 0 80px 0 0;
+    font-size: 23px;
+    
+}
+nav li a {
+    /* aqui sacamos el subrayado, espacio entre ellas*/
+    padding: 2px 7px 2px 7px;
+    color: #6e6363;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: #4d4a4a;
+}
+.center {
+    text-align: center;
+    border: 3px double rgb(138, 14, 14);
+    float: left;
+    width: 800px;
+    padding: 30px;
+    box-shadow: 10px 10px rgb(168, 134, 123);
+}
+p {
+    color: #970c0c;
+    font-size: x-large;
+    text-align: left;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+   padding-left: 270px;
+}
+
+table{
+    display: inline-flex;
+    text-align: center;
+    padding: 30px 150px 30px 150px;
+    font-size: 20px;
+}
+th{
+    padding-left: 25px;
+}
+button {
+    position: relative;
+    display: block;
+    left: 70px;
+    padding: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: dimgray;
+    font-style: italic; 
+}
+/* formulario contacto- mensaje */
+
+body.form-cont {
+    background-color: #ad8e8e;
+}
+
+
+.container-form {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+
+.container-form h2 {
+    margin-bottom: 15px;
+    font-size: 35px
+}
+
+.container-form p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.container-form a {
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.container-form form .campo,
+textarea {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.container-form form textarea {
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+.container-form .btn-enviar,.regreso {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.regreso {
+    position: relative;
+    display: block;
+    right: 40px;
+}
+
+/*pagina trabaja con nosotros*/
+
+.info_empresa p {
+    color: black;
+
+    text-align: justify;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 80px;
+    font-size: 25px;
+    text-indent: 50px;
+
+}
+.info h2{
+    color:rgb(41, 114, 79) ;
+    text-decoration-line:underline;
+    margin-left: 65px;
+}
+.info p{
+    color:black;
+    text-align: justify;
+    margin-left: 65px;
+    margin-right: 65px;
+    font-size: 22px;
+}
+.ingresa_empresa{
+    background-color: lightgrey;
+    width: 1200px;
+    border: 10px solid rgb(96, 93, 126);
+    padding: 50px;
+    margin: 80px;
+}
+.ingresa_empresa p, h2{
+    color: rgb(87, 85, 85);
+}
+.form__label {
+    display: block;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+    color: #181717;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.form__btn {
+    height: 20px;
+    line-height: 20px;
+    width: 30%;
+    background: #8d8b92;
+    color: #292833;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .1s ease all;
+    padding-top: 15px;
+    left: 15px;
+}
+.pie_trabaja_empresa{
+    
+    width: 1200px;
+    border: 5px solid #7c7b7e;
+    padding: 20px;
+    margin: 80px;
+    font-size: 18px;
+    font-family: Cambria, bold;
+    
+}
+.box {
+    display: flex;
+  }
+
+  .vigilancia{
+    flex: 2;
+  }
+
+  .patrimonial{
+    flex: 2;
+  }
+
+  .monitoreo {
+    flex: 2;
+  }
+  .electronica{
+    flex: 2;
+  }
+
+ #empresa{
+    color: rgb(90, 98, 116);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(195, 235, 102), 0 0 5px rgb(236, 41, 41);
+    font-family:Cambria bold;
+    font-size: 50px ;
+}
+img.izquierda {
+    float: left;
+  }
+  
+  img.derecha {
+    float: right;
+  }
+/*para hacer las columnas con marco*/
+/* 
+    background-color: lightgrey;
+    width: 650px;
+    height: 650px;
+    border: 15px solid green;
+    padding: 100px;
+    margin: 50px;*/
