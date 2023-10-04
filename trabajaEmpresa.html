@@ -16,6 +16,7 @@
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1 id="empresa"> A-1 CUSTODY SAM'S</h1>
@@ -51,7 +52,8 @@
                 complejos
                 y de
                 alto riesgo, y se especializan en la protección cuerpo a cuerpo.
-                En A-1 CUSTODY SAM'S tomamos muy en serio nuestro trabajo y cada uno de nuestros custodios esta preparado
+                En A-1 CUSTODY SAM'S tomamos muy en serio nuestro trabajo y cada uno de nuestros custodios esta
+                preparado
                 tanto
                 física
                 como mentalmente para responder ante situaciones complejas y de mucha presión.
@@ -96,126 +98,108 @@
             <h2>Servicio</h2>
             <br>
             <p>
-                Trabajamos todos los días para incrementar la efectividad de nuestros servicios dictando cursos de  capacitación a
-                nuestros vigiladores, analizando cada servicio, su funcionamiento y los procesos que implementamos.<a href="./index.html">Regresar</a>
+                Trabajamos todos los días para incrementar la efectividad de nuestros servicios dictando cursos de
+                capacitación a
+                nuestros vigiladores, analizando cada servicio, su funcionamiento y los procesos que implementamos.<a
+                    href="./index.html">Regresar</a>
             </P>
         </div>
         <section class="ingresa_empresa">
-            <img src="./assets/icons8-nota-40.png "  alt="" style="float: left;"> <h2>Unite a nuestro equipo de trabajo</h2>
+            <img src="./assets/icons8-nota-40.png " alt="" style="float: left;">
+            <h2>Unite a nuestro equipo de trabajo</h2>
             <br>
             <p>
-                Para ser parte de nuestro equipo de trabajo adjuntá tu CV (en formato PDF o Word que no superen los 4 MB) 
+                Para ser parte de nuestro equipo de trabajo adjuntá tu CV (en formato PDF o Word que no superen los 4
+                MB)
                 y completa los campos solicitados.
             </p>
-            <form action="" class="formulario" id="formulario">
+            <form id="formulario">
 
-                <!-- Grupo: Nombre -->
+                <!-- Grupo: nombre -->
                 <div class="formulario__grupo" id="grupo__nombre">
-                    <label for="nombre" class="form__label">Nombre</label>
+                    <label for="nombre" class="formulario__label">Nombre</label>
                     <div class="formulario__grupo-input">
-                        <input type="text" class="formulario__input" name="nombre" id="nombre" >
+                        <input type="text" class="formulario__input" name="nombre" id="nombre">
                         <i class="formulario__validacion-estado fas fa-times-circle"></i>
                     </div>
-                    <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener
-                        numeros, letras y guion bajo.</p>
+                    <p class="formulario__input-error">El nombre es requerido.</p>
                 </div>
-                <!-- Grupo: Apellido -->
+                <!-- Grupo: apellido -->
                 <div class="formulario__grupo" id="grupo__apellido">
-                    <label for="apellido" class="form__label">Apellido</label>
+                    <label for="apellido" class="formulario__label">Apellido</label>
                     <div class="formulario__grupo-input">
                         <input type="text" class="formulario__input" name="apellido" id="apellido">
                         <i class="formulario__validacion-estado fas fa-times-circle"></i>
                     </div>
-                    <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener
-                        numeros, letras y guion bajo.</p>
+                    <p class="formulario__input-error">El apellido es requerido.</p>
                 </div>
-                <!-- Grupo: domicilio -->
-                <div class="formulario__grupo" id="grupo__domicilio">
-                    <label for="domicilio" class="form__label">Domicilio</label>
-                    <div class="formulario__grupo-input">
-                        <input type="text" class="formulario__input" name="domicilio" id="domicilio">
-                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
-                    </div>
-                    <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener
-                        numeros, letras y guion bajo.</p>
-                </div>
-                <!-- Grupo: provincia -->
-                <div class="formulario__grupo" id="grupo__provincia">
-                    <label for="provincia" class="form__label">Provincia</label>
-                    <div class="formulario__grupo-input">
-                        <input type="text" class="formulario__input" name="provincia" id="provincia">
-                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
-                    </div>
-                    <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener
-                        numeros, letras y guion bajo.</p>
-                </div>
-
-                <!-- Grupo: Correo Electronico -->
+                <!-- Grupo: correo -->
                 <div class="formulario__grupo" id="grupo__correo">
-                    <label for="correo" class="form__label">Correo Electrónico</label>
+                    <label for="correo" class="formulario__label">Correo Electrónico</label>
                     <div class="formulario__grupo-input">
                         <input type="email" class="formulario__input" name="correo" id="correo"
                             placeholder="correo@correo.com">
                         <i class="formulario__validacion-estado fas fa-times-circle"></i>
                     </div>
-                    <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y
-                        guion bajo.</p>
+                    <p class="formulario__input-error">El correo es requerido.</p>
                 </div>
-
-                <!-- Grupo: Teléfono -->
+                <!-- Grupo: ntelefono -->
                 <div class="formulario__grupo" id="grupo__telefono">
-                    <label for="telefono" class="form__label">Teléfono</label>
+                    <label for="telefono" class="formulario__label">Teléfono</label>
                     <div class="formulario__grupo-input">
-                        <input type="text" class="formulario__input" name="telefono" id="telefono">
+                        <input type="tel" class="formulario__input" name="telefono" id="telefono">
                         <i class="formulario__validacion-estado fas fa-times-circle"></i>
                     </div>
-                    <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14
-                        dígitos.
-                    </p>
+                    <p class="formulario__input-error">El teléfono es requerido.</p>
                 </div>
-                <!-- Grupo: Cargar curriculum-->
+                <!-- Grupo: curriculum-->
                 <div class="formulario__grupo" id="grupo__curriculum">
-                    <label for="Carga CV" class="form__label">Adjuntar CV</label>
+                    <label for="curriculum" class="formulario__label">Carga CV</label>
                     <div class="formulario__grupo-input">
-                        <input type="text" class="formulario__input" name="curriculum" id="curriculum">
+                        <input type="file" class="formulario__input" name="archivo" accept=".pdf, .doc, .docx"
+                            id="archivo" required>
                         <i class="formulario__validacion-estado fas fa-times-circle"></i>
                     </div>
-                    <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14
-                        dígitos.
-                    </p>
+                    <p class="formulario__input-error">Debe cargar un archivo válido (PDF, DOC o DOCX).</p>
                 </div>
-
-                <!-- Grupo: Terminos y Condiciones -->
-                <div class="formulario__grupo" id="grupo__terminos">
-                    <label class="formulario__label">
-                        <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
-                        Acepto los Terminos y Condiciones
-                    </label>
-                </div>
-
-                <div class="formulario__mensaje" id="formulario__mensaje">
-                    <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario
-                        correctamente. </p>
-                </div>
-
                 <div class="formulario__grupo formulario__grupo-btn-enviar">
-                    <button type="submit" class="form__btn">ENVIAR</button> <br> 
-                    <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!
-                    </p>
+                    <button type="submit" class="formulario__btn">Enviar</button>
                 </div>
             </form>
+            <div id="resultado"></div>
         </section>
     </main>
     <footer>
         <section class="pie_trabaja_empresa">
-        <div class="box">
-            <div class="vigilancia">Vigilancia Física</div>
-            <div class="patrimonial">Seguridad Patrimonial</div>
-            <div class="monitoreo">Monitoreo</div>
-            <div class="electronica">Seguridad Electrónica</div>
-        </div>
+            <div class="box">
+                <div class="vigilancia">Vigilancia Física</div>
+                <div class="patrimonial">Seguridad Patrimonial</div>
+                <div class="monitoreo">Monitoreo</div>
+                <div class="electronica">Seguridad Electrónica</div>
+            </div>
         </section>
-        <p><img class="izquierda" src="./assets/icons8-mensaje-de-telefono-26.png"><img class="derecha" src="./assets/icons8-facebook-40.png"><img class="derecha" src="./assets/icons8-instagram-40.png">0810-456-9087</p>
+        <section class="propaganda">
+            <h2>ELLOS ENTRE OTROS, DEPOSITAN SU CONFIANZA EN NOSOTROS</h2>
+            <br>
+            <div class="img_evento">
+                <img src="./assets/bancojpg.jpg" alt="banco" width="25%">
+                <img src="./assets/desfile.jpg" alt="desfile" width="25%">
+                <img src="./assets/hotel.jpg" alt="hotel" width="25%">
+                <img src="./assets/musical.jpg" alt="musical" width="25%">
+            </div>
+        </section>
+        <hr style="color: rgb(20, 20, 20);">
+        <hr style="color: rgb(20, 20, 20);">
+        <br>
+        <div class="pie_final">
+            <img class="izquierda" src="./assets/icons8-mensaje-de-telefono-26.png">
+            <h3>0810-456-9087</h3>
+            <img src="./assets/icons8-instagram-40.png" alt="">
+            <img src="./assets/icons8-facebook-40.png" alt="">
+        </div>
+        <br>
+        <h5>A-1 CUSTODY SAM`S @</h5>
+        <h5>2023</h5>
     </footer>
     <script src="./index.js"></script>
 

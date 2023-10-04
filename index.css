@@ -339,50 +339,88 @@ textarea {
     cursor: pointer;
     transition: .1s ease all;
     padding-top: 15px;
-    left: 15px;
+    left: 280px;
 }
-.pie_trabaja_empresa{
-    
+
+.pie_trabaja_empresa {
+
     width: 1200px;
-    border: 5px solid #7c7b7e;
+    border: 5px solid #515170;
     padding: 20px;
     margin: 80px;
     font-size: 18px;
     font-family: Cambria, bold;
-    
+
 }
+
 .box {
     display: flex;
-  }
+}
 
-  .vigilancia{
+.vigilancia {
     flex: 2;
-  }
+}
 
-  .patrimonial{
+.patrimonial {
     flex: 2;
-  }
+}
 
-  .monitoreo {
+.monitoreo {
     flex: 2;
-  }
-  .electronica{
-    flex: 2;
-  }
+}
 
- #empresa{
+.electronica {
+    flex: 2;
+}
+
+#empresa {
     color: rgb(90, 98, 116);
     text-shadow: 1px 1px 2px black, 0 0 25px rgb(195, 235, 102), 0 0 5px rgb(236, 41, 41);
-    font-family:Cambria bold;
-    font-size: 50px ;
+    font-family: Cambria bold;
+    font-size: 50px;
 }
-img.izquierda {
-    float: left;
-  }
-  
-  img.derecha {
-    float: right;
-  }
+
+.propaganda {
+    background-color: lightgrey;
+    width: 1200px;
+    border: 10px inset rgb(96, 93, 126);
+    padding: 50px;
+    margin: 80px;
+    font-style: italic;
+    text-align: center;
+}
+
+.img_evento {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.img_evento img {
+    width: 100%;
+    max-width: 25%;
+    margin-right: 10px;
+}
+.pie_final {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+    }
+    
+    /* Alinea los elementos inline y aplica un margen a la derecha */
+    .pie_final img,
+    .pie_final h3 {
+        display: inline;
+        margin-right: 10px;
+        /* Ajusta el margen */
+    }
+
+
+
 /*para hacer las columnas con marco*/
 /* 
     background-color: lightgrey;
