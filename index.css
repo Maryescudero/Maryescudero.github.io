@@ -440,7 +440,7 @@ border-radius: 35px 0px 35px 0px;
 -webkit-border-radius: 35px 0px 35px 0px; 
 border: 2px solid #5878ca;
 }
-.container-cap1 {
+.container-cap1 ul , .container-cap2 {
  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 color: #ffffff; 
 font-size: 18px; 
@@ -454,6 +454,7 @@ border-radius: 35px 0px 35px 0px;
 -moz-border-radius: 35px 0px 35px 0px; 
 -webkit-border-radius: 35px 0px 35px 0px; 
 border: 2px solid #5878ca;
+list-style-type: none;
 }
 
 /* contenedor fotos servicios */
@@ -535,7 +536,7 @@ border: 2px solid #5878ca;
     display: flex; 
     align-items: center; 
     overflow: hidden; 
-    max-width: 800px; /* Tamaño máximo del carrusel */
+    max-width: 800px; 
     margin: 0 auto; 
 }
 
@@ -595,9 +596,9 @@ border: 2px solid #5878ca;
 }
 
 .carrusel2 .img2 {
-    width: 300px; /* Ajusta el ancho de las imágenes según tus necesidades */
-    height: 200px; /* Mantiene la relación de aspecto original */
-    transition: transform 0.3s; /* Agrega una transición suave para el zoom */
+    width: 300px; 
+    height: 200px; 
+    transition: transform 0.3s; 
     cursor: pointer;
     border: 5px;
     margin-right: 10px;
@@ -605,7 +606,7 @@ border: 2px solid #5878ca;
 }
 
 .img2:hover {
-    transform: scale(1.5); /* Hace zoom en la imagen cuando pasas el cursor sobre ella */
+    transform: scale(1.4); 
 }
 
 
