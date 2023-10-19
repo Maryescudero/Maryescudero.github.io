@@ -4,9 +4,12 @@
     margin: 0;
     padding: 0;
     
+    
 }
+
 header{
     background-color: rgb(221, 217, 217);
+    
 }
 
 /*formulario registro  usuario*/
@@ -184,7 +187,7 @@ p {
     text-align: left;
 }
 
-.container{
+.contain-ppal{
     position: relative;
     display: inline-block;
    padding-left: 270px;
@@ -341,7 +344,9 @@ textarea {
     padding-top: 15px;
     left: 280px;
 }
-
+.mt{
+    margin-top: 10px ;
+}
 .pie_trabaja_empresa {
 
     width: 1200px;
@@ -419,8 +424,103 @@ textarea {
         /* Ajusta el margen */
     }
 
+/*pagina productos*/
+.container-vf {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #363333; 
+font-size: 18px; 
+font-weight: 400; 
+text-align: center; 
+background: #889ccf; 
+margin: 25px 25px 25px; 
+overflow: hidden; 
+padding: 20px; 
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #5878ca;
+}
+.container-cap1 {
+ font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+font-size: 18px; 
+font-weight: 500; 
+text-align: center; 
+background: #a9b6d6; 
+margin: 25px 25px 25px; 
+overflow: hidden; 
+padding: 20px; 
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #5878ca;
+}
 
+/* contenedor fotos servicios */
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        align-items: flex-start; /* Alinea las tarjetas en la parte superior */
+        margin-right: 50px;
+        margin-left: 50px;
+        padding: 20px; 
+    }
+    .card {
+        flex-basis: calc(33.33% - 20px); /* Tamaño de cada tarjeta con margen */
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+        border-radius: 10px; 
+        display: flex;
+        flex-direction: column;
+    }
+    .card img {
+        max-width: 100%;
+        height: auto;
+        flex-grow: 1; 
+    }
+    .card .logo {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .card p {
+        color: #9460cf; 
+    }
 
+     #subTit {
+        text-align: center;
+        margin: 30px;
+        background: rgb(243, 243, 172);
+        border: 1px solid rgb(196, 10, 10);
+        outline: 1px solid rgb(107, 63, 156);
+        outline-offset: 15px;
+      }
+/* contenedor de custodia vip */
+ 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.image-block {
+    flex-basis: calc(25% - 10px); /* Ancho del 25% con márgenes incluidos */
+    margin: 5px;
+    text-align: center; 
+}
+
+.custVip {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al 100% */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
+.image-text {
+    margin-top: 10px; /* Espacio superior al texto */
+}
+
+      
 /*para hacer las columnas con marco*/
 /* 
     background-color: lightgrey;
@@ -429,3 +529,87 @@ textarea {
     border: 15px solid green;
     padding: 100px;
     margin: 50px;*/
+
+ /*pagina de carrusel*/
+ .carrusel {
+    display: flex; 
+    align-items: center; 
+    overflow: hidden; 
+    max-width: 800px; /* Tamaño máximo del carrusel */
+    margin: 0 auto; 
+}
+
+.carrusel img {
+   margin-top: 100px;
+    width: 800px; 
+    height: 500px; 
+    border-radius: 20px;
+}
+
+.carrusel img.show {
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center; 
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a1a9b1;
+    color: #2b2828;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 10px;
+}
+.text-info p {
+    color: #120c42;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+}
+.text-info h1{
+    color: #2b2828;
+   text-align: center;
+}
+.text-info2 h1{
+    color: #2b2828;
+   text-align: center;
+}
+.text-info2 p {
+    color: #120c42;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+}
+
+.carrusel2 {
+    display: flex; 
+    align-items: center; 
+    overflow: hidden; 
+    max-width: 1400px; /* Tamaño máximo del carrusel */
+    margin: 0 auto; 
+}
+
+.carrusel2 .img2 {
+    width: 300px; /* Ajusta el ancho de las imágenes según tus necesidades */
+    height: 200px; /* Mantiene la relación de aspecto original */
+    transition: transform 0.3s; /* Agrega una transición suave para el zoom */
+    cursor: pointer;
+    border: 5px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.img2:hover {
+    transform: scale(1.5); /* Hace zoom en la imagen cuando pasas el cursor sobre ella */
+}
+
+
+
+
+
+
