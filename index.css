@@ -212,6 +212,29 @@ button {
     background-color: dimgray;
     font-style: italic; 
 }
+.seg-dinamica h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #41393d;
+    font-size: 40px;
+}
+.seg-dinamica p{
+    color: black;
+    text-align: justify;
+    padding: 30px;
+}
+.vig-dinamica h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #41393d;
+    font-size: 40px;
+    
+}
+.vig-dinamica p{
+    color: black;
+    text-align: justify;
+    padding: 30px;
+}
 /* formulario contacto- mensaje */
 
 body.form-cont {
@@ -232,23 +255,33 @@ body.form-cont {
 .container-form h2 {
     margin-bottom: 15px;
     font-size: 35px
+
 }
 
-.container-form p {
-    font-size: 17px;
+.contacto-mens {
+    font-size: 20px;
     line-height: 1.6;
     margin-bottom: 30px;
+    color: #444141;
+}
+#present{
+    text-align: center;
+    font-size: 40px;
+    color: #181717;
 }
 
+
 .container-form a {
-    font-size: 17px;
+    font-size: 20px;
     display: inline-block;
     text-decoration: none;
     width: 100%;
     margin-bottom: 15px;
-    color: white;
+    color: rgb(153, 31, 10);
     font-weight: 700;
+    text-align: center;
 }
+
 
 .container-form form .campo,
 textarea {
@@ -268,21 +301,21 @@ textarea {
     max-height: 150px;
 }
 
-.container-form .btn-enviar,.regreso {
+.container-form .btn-enviar {
     padding: 15px;
     font-size: 16px;
     border: none;
     outline: 0px;
-    background: orange;
+    background: rgb(82, 79, 74);
     color: white;
     border-radius: 3px;
     cursor: pointer;
     transition: all 300ms ease;
+
 }
-.regreso {
-    position: relative;
-    display: block;
-    right: 40px;
+#regreso {
+  margin-left: 1250px;
+    
 }
 
 /*pagina trabaja con nosotros*/
@@ -426,35 +459,35 @@ textarea {
 
 /*pagina productos*/
 .container-vf {
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-color: #363333; 
-font-size: 18px; 
-font-weight: 400; 
-text-align: center; 
-background: #889ccf; 
-margin: 25px 25px 25px; 
-overflow: hidden; 
-padding: 20px; 
-border-radius: 35px 0px 35px 0px; 
--moz-border-radius: 35px 0px 35px 0px; 
--webkit-border-radius: 35px 0px 35px 0px; 
-border: 2px solid #5878ca;
+    text-align: center;
+    padding: 30px;
+    line-height: normal;
 }
+.container-vf h2{
+    color: #2b186c;
+text-decoration: underline  rgb(63, 60, 60);
+}
+.container-vf p{
+    color: black;
+    text-align: justify;
+    padding: 20px;
+}
+
 .container-cap1 ul , .container-cap2 {
  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-color: #ffffff; 
+color: #181818; 
 font-size: 18px; 
 font-weight: 500; 
 text-align: center; 
 background: #a9b6d6; 
-margin: 25px 25px 25px; 
-overflow: hidden; 
+margin: 25px 25px 25px;  
 padding: 20px; 
 border-radius: 35px 0px 35px 0px; 
 -moz-border-radius: 35px 0px 35px 0px; 
 -webkit-border-radius: 35px 0px 35px 0px; 
-border: 2px solid #5878ca;
+border: 2px solid #497705;
 list-style-type: none;
+
 }
 
 /* contenedor fotos servicios */
@@ -494,7 +527,7 @@ list-style-type: none;
 
      #subTit {
         text-align: center;
-        margin: 30px;
+        margin: 40px;
         background: rgb(243, 243, 172);
         border: 1px solid rgb(196, 10, 10);
         outline: 1px solid rgb(107, 63, 156);
@@ -514,22 +547,39 @@ list-style-type: none;
 }
 
 .custVip {
-    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al 100% */
-    height: auto; /* Mantiene la proporción de aspecto */
+    max-width: 100%; 
 }
 .image-text {
-    margin-top: 10px; /* Espacio superior al texto */
+    margin-top: 10px; 
 }
-
-      
-/*para hacer las columnas con marco*/
-/* 
+.class-tipos h2{
+color: #2b186c;
+text-decoration: underline  rgb(63, 60, 60);
+}
+.class-tipos p{
+    color: black;
+    text-align: justify;
+    padding: 20px;
+}
+#monitoreo,#seguridad-electronica,#seguridad-patrimonial{
+    text-align: center;
+    padding: 30px;
+    line-height: normal;
+}
+#tabla-electronica{
     background-color: lightgrey;
-    width: 650px;
-    height: 650px;
-    border: 15px solid green;
-    padding: 100px;
-    margin: 50px;*/
+    width: 1250px;
+    height: 200px;
+    border: 15px solid rgb(118, 128, 143);
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    
+}
+#pie-productos{
+    background-color: rgb(205, 223, 217);
+}
+    
 
  /*pagina de carrusel*/
  .carrusel {
